@@ -10951,7 +10951,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 </classes>
 <parts>
 <part name="U$1" library="milador" deviceset="RASPBERRYPI_ZERO" device="" package3d_urn="urn:adsk.eagle:package:9213580/1"/>
-<part name="QTHOST" library="Seeeduino XIAO" deviceset="MOUDLE-SEEEDUINO-XIAO" device=""/>
+<part name="QTPY" library="Seeeduino XIAO" deviceset="MOUDLE-SEEEDUINO-XIAO" device=""/>
 <part name="T1" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="*-NPN-" device="TO92-EBC" package3d_urn="urn:adsk.eagle:package:29915/2"/>
 <part name="T2" library="transistor-pnp" library_urn="urn:adsk.eagle:library:399" deviceset="*-?" device="TO92" package3d_urn="urn:adsk.eagle:package:29223/2" technology="MPSA56" value="2N2907"/>
 <part name="T3" library="transistor-pnp" library_urn="urn:adsk.eagle:library:399" deviceset="*-?" device="TO92" package3d_urn="urn:adsk.eagle:package:29223/2" technology="MPSA56" value="2N2907"/>
@@ -11002,7 +11002,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <attribute name="NAME" x="228.6" y="124.46" size="1.27" layer="95" font="vector"/>
 <attribute name="VALUE" x="228.6" y="122.555" size="1.27" layer="96" font="vector"/>
 </instance>
-<instance part="QTHOST" gate="G$1" x="132.08" y="78.74" smashed="yes">
+<instance part="QTPY" gate="G$1" x="132.08" y="78.74" smashed="yes">
 <attribute name="NAME" x="110.49" y="93.98" size="1.27" layer="95" ratio="12"/>
 <attribute name="VALUE" x="110.49" y="92.71" size="1.27" layer="96" ratio="12"/>
 </instance>
@@ -11210,7 +11210,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <junction x="223.52" y="71.12"/>
 </segment>
 <segment>
-<pinref part="QTHOST" gate="G$1" pin="GND"/>
+<pinref part="QTPY" gate="G$1" pin="GND"/>
 <wire x1="156.21" y1="86.36" x2="160.02" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="A" pin="2"/>
 <wire x1="160.02" y1="86.36" x2="160.02" y2="84.074" width="0.1524" layer="91"/>
@@ -11249,7 +11249,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <label x="106.426" y="94.996" size="1.778" layer="95" rot="R90"/>
 <pinref part="JP1" gate="A" pin="2"/>
 <wire x1="98.298" y1="84.836" x2="104.902" y2="84.836" width="0.1524" layer="91"/>
-<pinref part="QTHOST" gate="G$1" pin="PA4_A1_D1"/>
+<pinref part="QTPY" gate="G$1" pin="PA4_A1_D1"/>
 <wire x1="104.902" y1="84.836" x2="104.902" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="104.902" y1="86.36" x2="106.68" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="114.3" x2="83.82" y2="84.836" width="0.1524" layer="91"/>
@@ -11264,7 +11264,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <wire x1="109.22" y1="109.22" x2="91.44" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="109.22" x2="91.44" y2="79.756" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="4"/>
-<pinref part="QTHOST" gate="G$1" pin="PA11_A3_D3"/>
+<pinref part="QTPY" gate="G$1" pin="PA11_A3_D3"/>
 <wire x1="98.298" y1="79.756" x2="106.68" y2="79.756" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="79.756" x2="106.68" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="79.756" x2="98.298" y2="79.756" width="0.1524" layer="91"/>
@@ -11323,14 +11323,14 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <pinref part="JP1" gate="A" pin="1"/>
 <wire x1="98.298" y1="87.376" x2="104.14" y2="87.376" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="87.376" x2="104.14" y2="90.17" width="0.1524" layer="91"/>
-<pinref part="QTHOST" gate="G$1" pin="PA02_A0_D0"/>
+<pinref part="QTPY" gate="G$1" pin="PA02_A0_D0"/>
 <wire x1="104.14" y1="90.17" x2="106.68" y2="90.17" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="3"/>
-<pinref part="QTHOST" gate="G$1" pin="PA10_A2_D2"/>
+<pinref part="QTPY" gate="G$1" pin="PA10_A2_D2"/>
 <wire x1="98.298" y1="82.296" x2="106.68" y2="82.296" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="82.296" x2="106.68" y2="82.55" width="0.1524" layer="91"/>
 <pinref part="IRLEARN" gate="G$1" pin="OUT"/>
@@ -11343,7 +11343,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <net name="QTSCL" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="5"/>
-<pinref part="QTHOST" gate="G$1" pin="PA8_A4_D4_SDA"/>
+<pinref part="QTPY" gate="G$1" pin="PA8_A4_D4_SDA"/>
 <wire x1="98.298" y1="77.216" x2="106.68" y2="77.216" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="77.216" x2="106.68" y2="74.93" width="0.1524" layer="91"/>
 <wire x1="98.298" y1="77.216" x2="83.82" y2="77.216" width="0.1524" layer="91"/>
@@ -11360,7 +11360,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <wire x1="98.298" y1="74.676" x2="104.14" y2="74.676" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="74.676" x2="104.14" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="73.66" x2="106.68" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="QTHOST" gate="G$1" pin="PA9_A5_D5_SCL"/>
+<pinref part="QTPY" gate="G$1" pin="PA9_A5_D5_SCL"/>
 <wire x1="106.68" y1="73.66" x2="106.68" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="98.298" y1="74.676" x2="98.298" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="98.298" y1="73.66" x2="88.9" y2="73.66" width="0.1524" layer="91"/>
@@ -11376,7 +11376,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <pinref part="JP1" gate="A" pin="7"/>
 <wire x1="98.298" y1="72.136" x2="104.14" y2="72.136" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="72.136" x2="104.14" y2="67.31" width="0.1524" layer="91"/>
-<pinref part="QTHOST" gate="G$1" pin="PB08_A6_D6_TX"/>
+<pinref part="QTPY" gate="G$1" pin="PB08_A6_D6_TX"/>
 <wire x1="104.14" y1="67.31" x2="106.68" y2="67.31" width="0.1524" layer="91"/>
 <pinref part="TXRX" gate="1" pin="1"/>
 <wire x1="182.88" y1="45.72" x2="106.68" y2="45.72" width="0.1524" layer="91"/>
@@ -11387,7 +11387,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 </net>
 <net name="QTMOSI" class="0">
 <segment>
-<pinref part="QTHOST" gate="G$1" pin="PA6_A10_D10_MOSI"/>
+<pinref part="QTPY" gate="G$1" pin="PA6_A10_D10_MOSI"/>
 <pinref part="JP2" gate="A" pin="4"/>
 <wire x1="163.068" y1="78.74" x2="172.72" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="78.74" x2="172.72" y2="58.42" width="0.1524" layer="91"/>
@@ -11406,7 +11406,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 </net>
 <net name="QTMISO" class="0">
 <segment>
-<pinref part="QTHOST" gate="G$1" pin="PA5_A9_D9_MISO"/>
+<pinref part="QTPY" gate="G$1" pin="PA5_A9_D9_MISO"/>
 <wire x1="156.21" y1="74.93" x2="157.48" y2="74.93" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="74.93" x2="157.48" y2="76.454" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="A" pin="5"/>
@@ -11423,7 +11423,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 </net>
 <net name="QTSCK" class="0">
 <segment>
-<pinref part="QTHOST" gate="G$1" pin="PA7_A8_D8_SCK"/>
+<pinref part="QTPY" gate="G$1" pin="PA7_A8_D8_SCK"/>
 <wire x1="156.21" y1="71.12" x2="160.02" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="71.12" x2="160.02" y2="73.914" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="A" pin="6"/>
@@ -11441,7 +11441,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 </net>
 <net name="QTRX" class="0">
 <segment>
-<pinref part="QTHOST" gate="G$1" pin="PB09_A7_D7_RX"/>
+<pinref part="QTPY" gate="G$1" pin="PB09_A7_D7_RX"/>
 <pinref part="JP2" gate="A" pin="7"/>
 <wire x1="156.21" y1="67.31" x2="163.068" y2="67.31" width="0.1524" layer="91"/>
 <wire x1="163.068" y1="67.31" x2="163.068" y2="71.374" width="0.1524" layer="91"/>
@@ -11454,7 +11454,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 </net>
 <net name="3.3V" class="0">
 <segment>
-<pinref part="QTHOST" gate="G$1" pin="3V3"/>
+<pinref part="QTPY" gate="G$1" pin="3V3"/>
 <wire x1="156.21" y1="82.55" x2="157.48" y2="82.55" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="82.55" x2="157.48" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="A" pin="3"/>
@@ -11617,7 +11617,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <label x="127" y="167.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="QTHOST" gate="G$1" pin="5V"/>
+<pinref part="QTPY" gate="G$1" pin="5V"/>
 <pinref part="JP2" gate="A" pin="1"/>
 <wire x1="156.21" y1="90.17" x2="163.068" y2="90.17" width="0.1524" layer="91"/>
 <wire x1="163.068" y1="90.17" x2="163.068" y2="86.614" width="0.1524" layer="91"/>
